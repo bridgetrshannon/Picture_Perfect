@@ -1,1 +1,28 @@
-/* CSS */
+body {
+    text-align: center;
+    background: rgb(46, 71, 71);
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.highlight {
+
+}
+
+.controls {
+    margin-bottom: 50px;
+}
+
+#spacing {
+
+}
+
+#blur {
+
+}
+
+#base {
+
+}
