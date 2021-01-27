@@ -12,7 +12,7 @@ input {
  
 }
 
-/* adding variables to CSS elements */
+/* adds variables to CSS elements */
 :root {
     --base: #ffc600;
     --spacing: 10px;
@@ -31,7 +31,7 @@ img {
 }
 
 .highlight {
-
+    color: var(--base);
 }
 
 #spacing {
