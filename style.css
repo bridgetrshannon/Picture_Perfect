@@ -1,18 +1,37 @@
 body {
     text-align: center;
-    background: rgb(46, 71, 71);
+    background: rgb(44, 58, 58);
     color: white;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'helvetica neue', sans-serif;
     font-weight: 100;
-    font-size: 20px;
+    font-size: 30px;
 }
 
-.highlight {
+input {
+    width: 100px;
+ 
+}
 
+/* adding variables to CSS elements */
+:root {
+    --base: #ffc600;
+    --spacing: 10px;
+    --blur: 10px;
+}
+
+img {
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur))
 }
 
 .controls {
     margin-bottom: 50px;
+
+}
+
+.highlight {
+
 }
 
 #spacing {
